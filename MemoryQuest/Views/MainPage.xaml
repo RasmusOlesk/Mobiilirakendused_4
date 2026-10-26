@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MemoryQuest.Views.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Memory Quest"
+    BackgroundColor="{DynamicResource BackgroundColor}">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="18">
+
+            <Label
+                x:Name="GameTitleLabel"
+                Text="Memory Quest"
+                FontSize="28"
+                FontAttributes="Bold"
+                FontFamily="{DynamicResource GameFont}"
+                TextColor="{DynamicResource TextColor}"
+                HorizontalOptions="Center" />
+
+            <Label
+                x:Name="WelcomeLabel"
+                Text="Find all matching pairs!"
+                FontSize="16"
+                TextColor="{DynamicResource TextColor}"
+                HorizontalOptions="Center" />
+
+            <Label
+                x:Name="ProfileLabel"
+                FontSize="13"
+                FontAttributes="Bold"
+                TextColor="{DynamicResource AccentColor}"
+                HorizontalOptions="Center" />
+
+            <Grid ColumnDefinitions="*,*,*"
+                  ColumnSpacing="8">
+
+                <VerticalStackLayout Grid.Column="0"
+                                     HorizontalOptions="Center">
+                    <Label x:Name="ScoreTitleLabel"
+                           Text="Points"
+                           TextColor="{DynamicResource TextColor}" />
+                    <Label x:Name="ScoreLabel"
+                           Text="0"
+                           FontSize="24"
+                           FontAttributes="Bold"
+                           TextColor="{DynamicResource AccentColor}" />
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Grid.Column="1"
+                                     HorizontalOptions="Center">
+                    <Label x:Name="MovesTitleLabel"
+                           Text="Moves"
+                           TextColor="{DynamicResource TextColor}" />
+                    <Label x:Name="MovesLabel"
+                           Text="0"
+                           FontSize="24"
+                           FontAttributes="Bold"
+                           TextColor="{DynamicResource AccentColor}" />
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Grid.Column="2"
+                                     HorizontalOptions="Center">
+                    <Label x:Name="MatchesTitleLabel"
+                           Text="Pairs"
+                           TextColor="{DynamicResource TextColor}" />
+                    <Label x:Name="MatchesLabel"
+                           Text="0 / 6"
+                           FontSize="24"
+                           FontAttributes="Bold"
+                           TextColor="{DynamicResource AccentColor}" />
+                </VerticalStackLayout>
+
+            </Grid>
+
+            <CollectionView
+                x:Name="CardsView"
+                SelectionMode="None">
+
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout
+                        Orientation="Vertical"
+                        Span="3"
+                        HorizontalItemSpacing="8"
+                        VerticalItemSpacing="8" />
+                </CollectionView.ItemsLayout>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Button
+                            Text="{Binding DisplayText}"
+                            Clicked="OnCardClicked"
+                            HeightRequest="95"
+                            FontSize="30"
+                            CornerRadius="16"
+                            BackgroundColor="{DynamicResource CardColor}"
+                            TextColor="{DynamicResource TextColor}"
+                            FontFamily="{DynamicResource GameFont}"
+                            Padding="4" />
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+
+            </CollectionView>
+
+            <Button
+                x:Name="NewGameButton"
+                Text="New game"
+                Clicked="OnNewGameClicked"
+                BackgroundColor="{DynamicResource AccentColor}"
+                TextColor="White"
+                CornerRadius="14"
+                HeightRequest="52" />
+
+            <Button
+                x:Name="BackButton"
+                Clicked="OnBackClicked"
+                BackgroundColor="{DynamicResource CardColor}"
+                TextColor="{DynamicResource TextColor}"
+                CornerRadius="14"
+                HeightRequest="52" />
+
+            <Label
+                x:Name="ThemeLabel"
+                Text="Choose theme"
+                FontSize="18"
+                FontAttributes="Bold"
+                TextColor="{DynamicResource TextColor}"
+                HorizontalOptions="Center" />
+
+            <Grid ColumnDefinitions="*,*,*" ColumnSpacing="8">
+                <Button x:Name="LightThemeButton"
+                        Text="Light"
+                        Grid.Column="0"
+                        Clicked="OnLightThemeClicked"
+                        CornerRadius="12" />
+
+                <Button x:Name="DarkThemeButton"
+                        Text="Dark"
+                        Grid.Column="1"
+                        Clicked="OnDarkThemeClicked"
+                        CornerRadius="12" />
+
+                <Button x:Name="ColorfulThemeButton"
+                        Text="Colorful"
+                        Grid.Column="2"
+                        Clicked="OnColorfulThemeClicked"
+                        CornerRadius="12"
+                        FontSize="12" />
+            </Grid>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

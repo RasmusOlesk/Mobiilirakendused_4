@@ -1,0 +1,15 @@
+<api>
+  <jcw-types>
+    <type name="MainActivity" package="crc6416a5ca98307d5cb6" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="crc6488302ad6e9e4df1a.MauiAppCompatActivity" partial_assembly_qualified_name="MemoryQuest.MainActivity, MemoryQuest">
+      <constructors>
+        <constructor name="MainActivity" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+        <constructor name="MainActivity" method="n_.ctor:(I)V:" jni_signature="(I)V" managed_parameters="System.Int32, System.Private.CoreLib" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </constructors>
+    </type>
+    <type name="MainApplication" package="crc6416a5ca98307d5cb6" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="crc6488302ad6e9e4df1a.MauiApplication" is_application="True" partial_assembly_qualified_name="MemoryQuest.MainApplication, MemoryQuest" application_constructor="MainApplication" />
+  </jcw-types>
+  <acw-types partial-assembly-name="MemoryQuest" module-name="MemoryQuest.dll">
+    <type assembly-qualified-name="MemoryQuest.MainActivity, MemoryQuest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="memoryquest.MainActivity" java-key="crc6416a5ca98307d5cb6.MainActivity" managed-key="MemoryQuest.MainActivity" partial-assembly-qualified-name="MemoryQuest.MainActivity, MemoryQuest" />
+    <type assembly-qualified-name="MemoryQuest.MainApplication, MemoryQuest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="memoryquest.MainApplication" java-key="crc6416a5ca98307d5cb6.MainApplication" managed-key="MemoryQuest.MainApplication" partial-assembly-qualified-name="MemoryQuest.MainApplication, MemoryQuest" />
+  </acw-types>
+</api>

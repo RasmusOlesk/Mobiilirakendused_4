@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+	<value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+	<value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+	<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c26f89e34e89</value>
+  </resheader>
+  <resheader name="writer">
+	<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c26f89e34e89</value>
+  </resheader>
+  <data name="HomeTitle" xml:space="preserve"><value>Memory Quest</value></data>
+  <data name="WelcomeMessage" xml:space="preserve"><value>Find all matching pairs!</value></data>
+  <data name="PlayButton" xml:space="preserve"><value>Play</value></data>
+  <data name="SettingsButton" xml:space="preserve"><value>Settings</value></data>
+  <data name="BackButton" xml:space="preserve"><value>Back</value></data>
+  <data name="SettingsTitle" xml:space="preserve"><value>Settings</value></data>
+},{  <data name="LanguageLabel" xml:space="preserve"><value>Language</value></data>
+  <data name="EstonianLanguage" xml:space="preserve"><value>Estonian</value></data>
+  <data name="EnglishLanguage" xml:space="preserve"><value>English</value></data>
+  <data name="ProfileSelectionTitle" xml:space="preserve"><value>Select profile</value></data>
+  <data name="CreateProfileTitle" xml:space="preserve"><value>Create profile</value></data>
+  <data name="ProfileNamePlaceholder" xml:space="preserve"><value>Profile name</value></data>
+  <data name="CreateProfileButton" xml:space="preserve"><value>Create profile</value></data>
+  <data name="SelectProfileButton" xml:space="preserve"><value>Continue</value></data>
+  <data name="DeleteProfileTitle" xml:space="preserve"><value>Delete profile</value></data>
+  <data name="DeleteProfileMessage" xml:space="preserve"><value>Delete profile \"{0}\"?</value></data>
+  <data name="Yes" xml:space="preserve"><value>Yes</value></data>
+  <data name="No" xml:space="preserve"><value>No</value></data>
+  <data name="NoProfiles" xml:space="preserve"><value>No profiles yet.</value></data>
+  <data name="MaxProfilesReached" xml:space="preserve"><value>You can only keep up to 5 profiles.</value></data>
+  <data name="ProfileAlreadyExists" xml:space="preserve"><value>This profile already exists.</value></data>
+  <data name="ChooseProfileFirst" xml:space="preserve"><value>Please select a profile first.</value></data>
+  <data name="GameTitle" xml:space="preserve"><value>Memory Quest</value></data>
+  <data name="PointsLabel" xml:space="preserve"><value>Points</value></data>
+  <data name="MovesLabel" xml:space="preserve"><value>Moves</value></data>
+  <data name="MatchesLabel" xml:space="preserve"><value>Pairs</value></data>
+  <data name="NewGameButton" xml:space="preserve"><value>New game</value></data>
+  <data name="ChooseThemeLabel" xml:space="preserve"><value>Choose theme</value></data>
+  <data name="LightTheme" xml:space="preserve"><value>Light</value></data>
+  <data name="DarkTheme" xml:space="preserve"><value>Dark</value></data>
+  <data name="ColorfulTheme" xml:space="preserve"><value>Colorful</value></data>
+  <data name="WinnerTitle" xml:space="preserve"><value>Congratulations!</value></data>
+  <data name="WinnerMessage" xml:space="preserve"><value>You found all pairs!</value></data>
+  <data name="PlayAgainButton" xml:space="preserve"><value>Play again</value></data>
+  <data name="DefaultPlayerName" xml:space="preserve"><value>Player</value></data>
+  <data name="ProfileStatsTitle" xml:space="preserve"><value>Profile statistics</value></data>
+  <data name="GamesPlayedLabel" xml:space="preserve"><value>Games played</value></data>
+  <data name="BestScoreLabel" xml:space="preserve"><value>Best score</value></data>
+  <data name="TotalScoreLabel" xml:space="preserve"><value>Total score</value></data>
+</root>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+	<value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+	<value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+	<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c26f89e34e89</value>
+  </resheader>
+  <resheader name="writer">
+	<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c26f89e34e89</value>
+  </resheader>
+  <data name="HomeTitle" xml:space="preserve"><value>Memory Quest</value></data>
+  <data name="WelcomeMessage" xml:space="preserve"><value>Leia kõik sobivad paarid!</value></data>
+  <data name="PlayButton" xml:space="preserve"><value>Mängi</value></data>
+  <data name="SettingsButton" xml:space="preserve"><value>Seaded</value></data>
+  <data name="BackButton" xml:space="preserve"><value>Tagasi</value></data>
+  <data name="SettingsTitle" xml:space="preserve"><value>Seaded</value></data>
+  <data name="LanguageLabel" xml:space="preserve"><value>Keel</value></data>
+  <data name="EstonianLanguage" xml:space="preserve"><value>Eesti</value></data>
+  <data name="EnglishLanguage" xml:space="preserve"><value>Inglise</value></data>
+  <data name="ProfileSelectionTitle" xml:space="preserve"><value>Vali profiil</value></data>
+  <data name="CreateProfileTitle" xml:space="preserve"><value>Loo profiil</value></data>
+  <data name="ProfileNamePlaceholder" xml:space="preserve"><value>Profiili nimi</value></data>
+  <data name="CreateProfileButton" xml:space="preserve"><value>Loo profiil</value></data>
+  <data name="SelectProfileButton" xml:space="preserve"><value>Jätka</value></data>
+  <data name="DeleteProfileTitle" xml:space="preserve"><value>Kustuta profiil</value></data>
+  <data name="DeleteProfileMessage" xml:space="preserve"><value>Kustuta profiil \"{0}\"?</value></data>
+  <data name="Yes" xml:space="preserve"><value>Jah</value></data>
+  <data name="No" xml:space="preserve"><value>Ei</value></data>
+  <data name="NoProfiles" xml:space="preserve"><value>Profiile pole veel.</value></data>
+  <data name="MaxProfilesReached" xml:space="preserve"><value>Saad hoida ainult kuni 5 profiili.</value></data>
+  <data name="ProfileAlreadyExists" xml:space="preserve"><value>See profiil on juba olemas.</value></data>
+  <data name="ChooseProfileFirst" xml:space="preserve"><value>Vali esmalt profiil.</value></data>
+  <data name="GameTitle" xml:space="preserve"><value>Memory Quest</value></data>
+  <data name="PointsLabel" xml:space="preserve"><value>Punktid</value></data>
+  <data name="MovesLabel" xml:space="preserve"><value>Käigud</value></data>
+  <data name="MatchesLabel" xml:space="preserve"><value>Paarid</value></data>
+  <data name="NewGameButton" xml:space="preserve"><value>Uus mäng</value></data>
+  <data name="ChooseThemeLabel" xml:space="preserve"><value>Vali kujundus</value></data>
+  <data name="LightTheme" xml:space="preserve"><value>Hele</value></data>
+  <data name="DarkTheme" xml:space="preserve"><value>Tume</value></data>
+  <data name="ColorfulTheme" xml:space="preserve"><value>Värviline</value></data>
+  <data name="WinnerTitle" xml:space="preserve"><value>Palju õnne!</value></data>
+  <data name="WinnerMessage" xml:space="preserve"><value>Leidsid kõik paarid!</value></data>
+  <data name="PlayAgainButton" xml:space="preserve"><value>Mängi uuesti</value></data>
+  <data name="DefaultPlayerName" xml:space="preserve"><value>Mängija</value></data>
+  <data name="ProfileStatsTitle" xml:space="preserve"><value>Profiili statistika</value></data>
+  <data name="GamesPlayedLabel" xml:space="preserve"><value>Mänge mängitud</value></data>
+  <data name="BestScoreLabel" xml:space="preserve"><value>Parim tulemus</value></data>
+  <data name="TotalScoreLabel" xml:space="preserve"><value>Kokku punktid</value></data>
+</root>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MemoryQuest.Views.ProfileSelectionPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Profiles">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="24" Spacing="14">
+            <Label
+                x:Name="TitleLabel"
+                FontSize="28"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                TextColor="{DynamicResource TextColor}" />
+
+            <Entry
+                x:Name="ProfileNameEntry"
+                Placeholder="Profile name"
+                TextColor="{DynamicResource TextColor}"
+                PlaceholderColor="Gray" />
+
+            <Button
+                x:Name="CreateProfileButton"
+                Clicked="OnCreateProfileClicked"
+                BackgroundColor="{DynamicResource AccentColor}"
+                TextColor="White"
+                CornerRadius="16"
+                HeightRequest="52" />
+
+            <CollectionView x:Name="ProfilesCollectionView" SelectionMode="Single" SelectionChanged="OnProfileSelected">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Border Stroke="{DynamicResource AccentColor}" StrokeThickness="1" Padding="12" Margin="0,0,0,10" StrokeShape="RoundRectangle 12">
+                            <Grid ColumnDefinitions="*,Auto">
+                                <VerticalStackLayout Grid.Column="0">
+                                    <Label Text="{Binding Name}" FontAttributes="Bold" TextColor="{DynamicResource TextColor}" />
+                                    <Label Text="{Binding TotalGames, StringFormat='Games played: {0}'}" TextColor="{DynamicResource TextColor}" />
+                                    <Label Text="{Binding BestScore, StringFormat='Best score: {0}'}" TextColor="{DynamicResource TextColor}" />
+                                </VerticalStackLayout>
+
+                                <Button
+                                    Grid.Column="1"
+                                    Text="Delete"
+                                    CommandParameter="{Binding Id}"
+                                    Clicked="OnDeleteProfileClicked"
+                                    BackgroundColor="#D64545"
+                                    TextColor="White"
+                                    CornerRadius="10"
+                                    HeightRequest="40"
+                                    WidthRequest="90" />
+                            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <Button
+                x:Name="BackButton"
+                Clicked="OnBackClicked"
+                BackgroundColor="{DynamicResource CardColor}"
+                TextColor="{DynamicResource TextColor}"
+                CornerRadius="16"
+                HeightRequest="52" />
+
+            <Button
+                x:Name="ContinueButton"
+                Clicked="OnContinueClicked"
+                BackgroundColor="{DynamicResource CardColor}"
+                TextColor="{DynamicResource TextColor}"
+                CornerRadius="16"
+                HeightRequest="52" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
+

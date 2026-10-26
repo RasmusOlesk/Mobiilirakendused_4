@@ -1,0 +1,10 @@
+<api type="debug" assembly-name="MemoryQuest" mvid="06b0fddd3ea74ee394774fb816abed4c">
+  <java-to-managed>
+    <entry java-name="crc6416a5ca98307d5cb6/MainActivity" managed-name="MemoryQuest.MainActivity, MemoryQuest" managed-type-token-id="33554440" />
+    <entry java-name="crc6416a5ca98307d5cb6/MainApplication" managed-name="MemoryQuest.MainApplication, MemoryQuest" managed-type-token-id="33554441" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="crc6416a5ca98307d5cb6/MainActivity" managed-name="MemoryQuest.MainActivity, MemoryQuest" managed-type-token-id="33554440" />
+    <entry java-name="crc6416a5ca98307d5cb6/MainApplication" managed-name="MemoryQuest.MainApplication, MemoryQuest" managed-type-token-id="33554441" />
+  </managed-to-java>
+</api>

@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="MemoryQuest/MemoryQuest.csproj">
+    <Deploy />
+  </Project>
+</Solution>
