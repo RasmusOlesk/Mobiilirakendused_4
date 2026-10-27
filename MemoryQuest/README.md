@@ -80,10 +80,6 @@ Kui kasutaja keelt vahetab, uuendatakse kõikide lehtede tekstid vastavalt valit
 4. Valige soovitud sihtplatform (Windows, Android jne).
 5. Rakendus käivitub ja loob vajadusel SQLite andmebaasi automaatselt.
 
-## Märkus
-
-Kui soovid nullist algust ja kustutada vana andmebaas, siis tuleb eemaldada SQLite fail `MemoryQuest.db` või desinstallida rakendus ja käivitada uuesti.
-
 ## Tehnoloogiad
 
 - .NET 10
